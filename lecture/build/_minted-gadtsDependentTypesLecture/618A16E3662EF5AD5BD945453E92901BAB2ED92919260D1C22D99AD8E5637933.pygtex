@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{safeHead}\PYG{+w}{ }\PYG{o}{\PYGZdl{}}\PYG{+w}{ }\PYG{k+kt}{Cons}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}bar\PYGZdq{}}\PYG{+w}{ }\PYG{k+kt}{Nil}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} \PYGZdq{}bar\PYGZdq{}}
+\PYG{n+nf}{safeHead}\PYG{+w}{ }\PYG{o}{\PYGZdl{}}\PYG{+w}{ }\PYG{k+kt}{Nil}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} error: Couldn\PYGZsq{}t match type ‘Empty’ with ‘NonEmpty’}
+\end{Verbatim}

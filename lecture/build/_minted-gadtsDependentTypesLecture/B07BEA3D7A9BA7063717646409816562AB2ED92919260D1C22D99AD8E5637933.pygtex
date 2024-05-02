@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{type}\PYG{+w}{ }\PYG{k+kr}{family}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{m}\PYG{o+ow}{::}\PYG{k+kt}{Nat}\PYG{p}{)}\PYG{+w}{ }\PYG{k+kt}{:\PYGZlt{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{n}\PYG{o+ow}{::}\PYG{k+kt}{Nat}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Bool}
+\PYG{k+kr}{type}\PYG{+w}{ }\PYG{k+kr}{instance}\PYG{+w}{ }\PYG{n}{m}\PYG{+w}{ }\PYG{k+kt}{:\PYGZlt{}}\PYG{+w}{ }\PYG{k+kt}{\PYGZsq{}Zero}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{k+kt}{\PYGZsq{}False}
+\PYG{k+kr}{type}\PYG{+w}{ }\PYG{k+kr}{instance}\PYG{+w}{ }\PYG{k+kt}{Zero}\PYG{+w}{ }\PYG{k+kt}{:\PYGZlt{}}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{Succ}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{k+kt}{\PYGZsq{}True}
+\PYG{k+kr}{type}\PYG{+w}{ }\PYG{k+kr}{instance}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{\PYGZsq{}Succ}\PYG{+w}{ }\PYG{n}{m}\PYG{p}{)}\PYG{+w}{ }\PYG{k+kt}{:\PYGZlt{}}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{Succ}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{m}\PYG{+w}{ }\PYG{k+kt}{:\PYGZlt{}}\PYG{+w}{ }\PYG{n}{n}
+\end{Verbatim}

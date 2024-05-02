@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\PYG{n+nf}{nth}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{m}\PYG{k+kt}{:\PYGZlt{}}\PYG{n}{n}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZti{}}\PYG{+w}{ }\PYG{k+kt}{\PYGZsq{}True}\PYG{+w}{ }\PYG{o+ow}{=\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{SNat}\PYG{+w}{ }\PYG{n}{m}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{Vec}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{a}
+\PYG{n+nf}{nth}\PYG{+w}{ }\PYG{k+kt}{SZero}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{k+kr}{\PYGZus{}}\PYG{p}{)}\PYG{+w}{        }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{a}
+\PYG{n+nf}{nth}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{SSucc}\PYG{+w}{ }\PYG{n}{sm\PYGZsq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{k+kr}{\PYGZus{}}\PYG{+w}{ }\PYG{n}{as}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{nth}\PYG{+w}{ }\PYG{n}{sm\PYGZsq{}}\PYG{+w}{ }\PYG{n}{as}
+
+\end{Verbatim}

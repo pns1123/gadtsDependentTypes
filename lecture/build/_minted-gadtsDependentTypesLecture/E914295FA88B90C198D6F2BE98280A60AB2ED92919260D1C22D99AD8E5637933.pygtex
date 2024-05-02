@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{nth}\PYG{+w}{ }\PYG{k+kt}{SZero}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}foo\PYGZdq{}}\PYG{+w}{ }\PYG{k+kt}{VNil}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} \PYGZdq{}foo\PYGZdq{}}
+\PYG{n+nf}{nth}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{SSucc}\PYG{+w}{ }\PYG{k+kt}{SZero}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}foo\PYGZdq{}}\PYG{+w}{ }\PYG{k+kt}{VNil}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} error: Couldn\PYGZsq{}t match type ‘\PYGZsq{}False’ with ‘\PYGZsq{}True’}
+\end{Verbatim}

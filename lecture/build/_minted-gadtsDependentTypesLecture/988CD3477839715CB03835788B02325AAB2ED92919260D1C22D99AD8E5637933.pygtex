@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{evalExprV1}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{ExprV1}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{Int}
+\PYG{n+nf}{evalExprV1}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{ExprV1}\PYG{+w}{ }\PYG{n}{k}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{k}
+\PYG{n+nf}{evalExprV1}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{AddV1}\PYG{+w}{ }\PYG{n}{e1}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{evalExprV1}\PYG{+w}{ }\PYG{n}{e1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{evalExprV1}\PYG{+w}{ }\PYG{n}{e2}
+\end{Verbatim}

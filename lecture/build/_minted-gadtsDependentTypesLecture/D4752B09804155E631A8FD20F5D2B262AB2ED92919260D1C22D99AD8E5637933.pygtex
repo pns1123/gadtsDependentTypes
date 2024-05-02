@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{data}\PYG{+w}{ }\PYG{k+kt}{ContainerStatus}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{k+kt}{Empty}\PYG{+w}{ }\PYG{o}{|}\PYG{+w}{ }\PYG{k+kt}{NonEmpty}
+
+\PYG{k+kr}{data}\PYG{+w}{ }\PYG{k+kt}{SafeList}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ContainerStatus}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{where}
+\PYG{+w}{  }\PYG{k+kt}{Nil}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{SafeList}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{k+kt}{Empty}
+\PYG{+w}{  }\PYG{k+kt}{Cons}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{SafeList}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{n}{b}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{SafeList}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{k+kt}{NonEmpty}
+
+\PYG{n+nf}{safeHead}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{SafeList}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{k+kt}{NonEmpty}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{a}
+\PYG{n+nf}{safeHead}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{Cons}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{k+kr}{\PYGZus{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{x}
+\end{Verbatim}

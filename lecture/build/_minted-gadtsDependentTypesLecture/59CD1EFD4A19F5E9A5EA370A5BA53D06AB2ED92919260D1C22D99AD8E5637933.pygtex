@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\PYG{k+kr}{data}\PYG{+w}{ }\PYG{k+kt}{Nat}\PYG{+w}{ }\PYG{k+kr}{where}
+\PYG{+w}{  }\PYG{k+kt}{Zero}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Nat}
+\PYG{+w}{  }\PYG{k+kt}{Succ}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Nat}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{Nat}
+
+\PYG{k+kr}{data}\PYG{+w}{ }\PYG{k+kt}{Vec}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{Nat}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{where}
+\PYG{+w}{  }\PYG{k+kt}{VNil}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Vec}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{k+kt}{\PYGZsq{}Zero}
+\PYG{+w}{  }\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{Vec}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{Vec}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{\PYGZsq{}Succ}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}
+
+\end{Verbatim}

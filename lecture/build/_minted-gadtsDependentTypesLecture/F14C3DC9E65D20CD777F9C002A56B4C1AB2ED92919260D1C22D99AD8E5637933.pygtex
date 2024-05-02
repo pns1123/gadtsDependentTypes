@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{data}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{k+kr}{where}
+\PYG{+w}{  }\PYG{k+kt}{IntV2}\PYG{+w}{  }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Int}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Int}
+\PYG{+w}{  }\PYG{k+kt}{BoolV2}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Bool}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Bool}
+\PYG{+w}{  }\PYG{k+kt}{AddV2}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Int}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Int}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Int}
+\PYG{+w}{  }\PYG{k+kt}{NotV2}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Bool}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Bool}
+\PYG{+w}{  }\PYG{k+kt}{IfV2}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{k+kt}{Bool}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{n}{a}
+\end{Verbatim}

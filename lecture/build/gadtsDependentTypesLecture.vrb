@@ -1,0 +1,13 @@
+\frametitle{\insertsubsection }
+\begin{definition}{What is a dependently typed language?}
+								In a dependently typed language, types depend on run-time values.
+				\end{definition}
+				\begin{definition}{Is Haskell a dependently typed language?}
+								Elements of a dependently typed language are supported by language extensions:
+								\begin{itemize}
+												\item{There is a  notion of type-level data with typing provided by DataKinds.}
+												\item{We can use GADTs to create run-time representation of type-level data (using Singletons)}
+								\end{itemize}
+								Using Singletons oftentimes requires duplicate code for term- and type-level data. The \textit{Singletons} library can help to create this boilerplate code using \textit{Template Haskell}.
+				\end{definition}
+\beamerclosesubstitutedenvironement {slide}

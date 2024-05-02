@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{data}\PYG{+w}{ }\PYG{k+kt}{SNat}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Nat}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{where}
+\PYG{+w}{  }\PYG{k+kt}{SZero}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{SNat}\PYG{+w}{ }\PYG{k+kt}{\PYGZsq{}Zero}
+\PYG{+w}{  }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} SSucc :: forall (n::Nat).SNat n \PYGZhy{}\PYGZgt{} SNat (\PYGZsq{}Succ n)}
+\PYG{+w}{  }\PYG{k+kt}{SSucc}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{SNat}\PYG{+w}{ }\PYG{n}{n}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{k+kt}{SNat}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{\PYGZsq{}Succ}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}
+\end{Verbatim}

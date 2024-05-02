@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{head}\PYG{+w}{ }\PYG{k+kt}{[]}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} *** Exception: Prelude.head: empty list}
+\PYG{n+nf}{maximum}\PYG{+w}{ }\PYG{k+kt}{[]}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} *** Exception: Prelude.head: empty list}
+\PYG{p}{[}\PYG{l+s}{\PYGZdq{}foo\PYGZdq{}}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{!!}\PYG{+w}{ }\PYG{l+m+mi}{1}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} *** Exception: Prelude.!!: index too large}
+\end{Verbatim}

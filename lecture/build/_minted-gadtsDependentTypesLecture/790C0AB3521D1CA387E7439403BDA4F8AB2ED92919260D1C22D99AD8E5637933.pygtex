@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{evalExprV2}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{ExprV2}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{a}
+\PYG{n+nf}{evalExprV2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{IntV2}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{i}
+\PYG{n+nf}{evalExprV2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{BoolV2}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{b}
+\PYG{n+nf}{evalExprV2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{AddV2}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{evalExprV2}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{evalExprV2}\PYG{+w}{ }\PYG{n}{y}
+\PYG{n+nf}{evalExprV2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{NotV2}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{not}\PYG{+w}{ }\PYG{o}{\PYGZdl{}}\PYG{+w}{ }\PYG{n}{evalExprV2}\PYG{+w}{ }\PYG{n}{x}
+\PYG{n+nf}{evalExprV2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{IfV2}\PYG{+w}{ }\PYG{n}{c}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{k+kr}{if}\PYG{+w}{ }\PYG{n}{evalExprV2}\PYG{+w}{ }\PYG{n}{c}
+\PYG{+w}{                          }\PYG{k+kr}{then}\PYG{+w}{ }\PYG{n}{evalExprV2}\PYG{+w}{ }\PYG{n}{x}
+\PYG{+w}{                          }\PYG{k+kr}{else}\PYG{+w}{ }\PYG{n}{evalExprV2}\PYG{+w}{ }\PYG{n}{y}
+\end{Verbatim}

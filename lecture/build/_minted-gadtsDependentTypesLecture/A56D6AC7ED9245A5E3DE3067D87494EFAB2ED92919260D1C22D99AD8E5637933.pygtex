@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\PYG{n+nf}{safeHead\PYGZsq{}}\PYG{+w}{ }\PYG{o+ow}{::}\PYG{+w}{ }\PYG{k+kt}{Vec}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{\PYGZsq{}Succ}\PYG{+w}{ }\PYG{n}{n}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{\PYGZhy{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{a}
+\PYG{n+nf}{safeHead\PYGZsq{}}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{k+kr}{\PYGZus{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o+ow}{=}\PYG{+w}{ }\PYG{n}{x}
+
+\end{Verbatim}

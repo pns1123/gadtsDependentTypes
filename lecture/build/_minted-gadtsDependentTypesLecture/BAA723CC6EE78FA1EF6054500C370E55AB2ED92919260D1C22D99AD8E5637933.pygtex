@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{\PYGZob{}\PYGZhy{}\PYGZsh{} LANGUAGE DataKinds       \PYGZsh{}\PYGZhy{}\PYGZcb{}}
+\PYG{c+cm}{\PYGZob{}\PYGZhy{}\PYGZsh{} LANGUAGE GADTs           \PYGZsh{}\PYGZhy{}\PYGZcb{}}
+\PYG{c+cm}{\PYGZob{}\PYGZhy{}\PYGZsh{} LANGUAGE RankNTypes      \PYGZsh{}\PYGZhy{}\PYGZcb{}}
+\PYG{c+cm}{\PYGZob{}\PYGZhy{}\PYGZsh{} LANGUAGE TypeFamilies    \PYGZsh{}\PYGZhy{}\PYGZcb{}}
+\PYG{c+cm}{\PYGZob{}\PYGZhy{}\PYGZsh{} LANGUAGE TypeOperators   \PYGZsh{}\PYGZhy{}\PYGZcb{}}
+\end{Verbatim}

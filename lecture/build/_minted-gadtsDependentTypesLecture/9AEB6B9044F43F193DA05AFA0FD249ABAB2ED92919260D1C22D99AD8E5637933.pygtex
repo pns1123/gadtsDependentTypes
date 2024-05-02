@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{Succ}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{Succ}\PYG{+w}{ }\PYG{k+kt}{Zero}\PYG{p}{)}\PYG{+w}{ }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} 2}
+\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{+w}{ }\PYG{k+kt}{Nil}\PYG{p}{)}\PYG{+w}{ }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} the vector [2, 1]}
+\PYG{k+kt}{:}\PYG{n}{t}\PYG{+w}{ }\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{VCons}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{+w}{ }\PYG{k+kt}{VNil}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} VCons 2 (VCons 1 VNil) :: Num a =\PYGZgt{} Vec a (\PYGZsq{}Succ (\PYGZsq{}Succ \PYGZsq{}Zero))}
+\end{Verbatim}

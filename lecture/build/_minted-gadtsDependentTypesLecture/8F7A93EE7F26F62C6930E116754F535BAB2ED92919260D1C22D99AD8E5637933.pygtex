@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{:}\PYG{n}{k}\PYG{+w}{ }\PYG{k+kt}{ExprV1}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} ExprV1 :: *}
+\PYG{k+kt}{:}\PYG{n}{t}\PYG{+w}{ }\PYG{k+kt}{ExprV1}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} ExprV1 :: Int \PYGZhy{}\PYGZgt{} ExprV1}
+\PYG{k+kt}{:}\PYG{n}{t}\PYG{+w}{ }\PYG{k+kt}{AddV1}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} AddV1 :: ExprV1 \PYGZhy{}\PYGZgt{} ExprV1 \PYGZhy{}\PYGZgt{} ExprV1}
+\end{Verbatim}
